@@ -1,0 +1,10 @@
+.landing > h1 {
+    font-size: 5rem;
+    margin: 0;
+}
+
+.landing > p {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #d3d3d3;
+}

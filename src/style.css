@@ -1,0 +1,53 @@
+:root {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #000000;
+    color: #fff;
+
+    --nav-sep-margin: 3rem;
+}
+
+body,
+html,
+#app {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.spot {
+    max-width: 300px;
+    background: #FAFFFD;
+    color: #000;
+    padding: 1rem 0 0 1rem;
+    margin-top: var(--nav-sep-margin);
+}
+
+.spot > .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.spot > .descr {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+hr {
+    margin: var(--nav-sep-margin);
+    height: 0.25rem;
+    background: white;
+}
